@@ -1,4 +1,6 @@
-## NextAuth.js v5, MongoDB, Typescript Example  
+## Next.js 14 全棧身份認證實作 Full Stack Authentication With Next.js 14
+使用 Next.js 14、NextAuth.js v5、MongoDB、Mongoos、TypeScript 和 Server Actions 實現全棧認證
+
 A demo project that uses NextAuth.js v5 for authentication, connects to MongoDB with Mongoose, and supports Google OAuth and email/password login.
 
 ## Features
