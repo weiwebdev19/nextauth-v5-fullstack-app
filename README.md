@@ -4,16 +4,22 @@
 A demo project that uses NextAuth.js v5 for authentication, connects to MongoDB with Mongoose, and supports Google OAuth and email/password login.
 
 ## Features
+- OAuth: 可透過 Google 帳號進行登錄。
 - OAuth: Log in with Google.
 
+- 憑證登入: 使用電子郵件和密碼進行登入。
 - Credential Login: Log in with email and password.
 
+- 信箱驗證: 驗證用戶的電子郵件地址。
 - Email Verification: Confirm user's email address.
 
+- 重設密碼: 透過電子郵件重設用戶的密碼。
 - Forgot Password: Reset user's password through an email.
 
+- 2FA雙因素驗證: 透過電子郵件獲取六位數登錄碼。
 - Two Factor Verification: Obtain a six-digit login code through an email.
 
+- 變更設定: 更改用戶設定，包括名稱、密碼，以及切換雙因素驗證。
 - Settings Edit: Change user's settings, including name, password, and toggle Two-factor verification.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
